@@ -15,16 +15,18 @@ body {
     color: #ffffff;
 }
 
+
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+#seo {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,7 +52,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,6 +61,12 @@ p {
     background-position: center;
 }
 
+/* Hiding the #hero caption; it is for accessibility/reader purposes only */
+#hero figcaption {
+    display: none; 
+}
+
+/* attempting to migrate from a float to a flex-box model */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -173,19 +181,19 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+    .search-engine-optimization h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+    .online-reputation-management h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    .social-media-marketing h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
 }
 
 .footer {
@@ -195,6 +203,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
