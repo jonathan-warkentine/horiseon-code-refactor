@@ -12,6 +12,7 @@
     9. Created sections from what was previously divs within the aforementioned "aside" element (see 1.8)
     10. Created a "footer" element out of what was previously a div container with class "footer"
     11. Changed the h2 in the footer to an h4 to be consistent with the heading hierarchy in the rest of the webpage. Updated the CSS accordingly.
+    12. Removed the class "content" since we can use the new "main" element to select the element semantically (ie "main{}" in the CSS)
 
 
 2. CSS
@@ -20,6 +21,10 @@
     3. Consolidated selectors ".online-reputation-management img", ".social-media-marketing img", and ".search-engine-optimization img" to one selector ".main-section img"
     4. Consolidated selectors ".online-reputation-management h2", ".social-media-marketing h2", and ".search-engine-optimization h2" to one selector ".main-section h2"
     5. Removed the "footer" class and replaced the selector with a direct "footer {}" tag in place of the ".footer {}" class tag
+    6. Replaced class "benefits" for our aside with the semantic element selector "aside {}"
+    7. Consolidated ".lead-generation", ".benefit-brand", and ".cost-management" classes with a single, shared class, ".benefit-section"
+    10. Consolidated ".lead-generation h3", ".benefit-brand h3", and ".cost-management h3" classes with a single, shared class, ".benefit-section h3"
+    9. Consolidated ".lead-generation img", ".benefit-brand img", and ".cost-management img" classes with a single, shared class, ".benefit-section img"
 
 
 
@@ -29,4 +34,6 @@
 
 
 Outstanding Improvements:
-- Img 
+- Img and icon elements have accessible alt attributes
+- further CSS consolidation?
+- CSS commenting
