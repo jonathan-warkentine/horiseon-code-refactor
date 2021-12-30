@@ -1,13 +1,17 @@
+
+/* resetting default CSS stylings */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* creating background color for the entire webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* styling the homepage title header section */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +19,7 @@ header {
     color: #ffffff;
 }
 
+/* styling homepage title */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -25,8 +30,8 @@ header h1 {
     color: #d9dcd6;
 }
 
-/*  */
-header nav {
+/* styling the homepage navbar */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,25 +39,30 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+/* more homepage navbar styling */
+nav ul {
     list-style-type: none;
 }
 
+/* more homepage navbar styling */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* link styling for our webpage */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* default paragraph text styling for our webpage */
 p {
     font-size: 16px;
 }
 
-.hero {
+/* styling for the large cover image on the homepage */
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -62,26 +72,30 @@ p {
 }
 
 /* hiding our new figcaption; it is for complieance with accessibility standards only */
-.hero figcaption{
+#hero figcaption{
     display: none;
 }
 
+/* arranges the designated images in the "main" section to the left of adjoining text */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* arranges the designated images in the "main" section to the left of adjoining text */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* styling for the main content container */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styling for the sidebar */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -91,26 +105,29 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
 }
 
+/* stylings for the sections contained in the sidebar */
 .benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* stylings for the subheadings of the sidebar sections */
 .benefit-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* stylings for the sidebar icons */
 .benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* stylings for the sections within the main container */
 .main-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,15 +137,18 @@ aside {
     color: #ffffff;
 }
 
+/* stylings for the images within the main container */
 .main-section img {
     max-height: 200px;
 }
 
+/* stylings for the subheadings within the main container */
 .main-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* stylings for the webpage footer */
 footer {
     padding: 30px;
     clear: both;
@@ -136,6 +156,7 @@ footer {
     text-align: center;
 }
 
+/* headings stylings for the webpage footer */
 footer h4 {
     font-size: 20px;
 }

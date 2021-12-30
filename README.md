@@ -15,6 +15,7 @@
     10. Created a "footer" element out of what was previously a div container with class "footer"
     11. Changed the h2 in the footer to an h4 to be consistent with the heading hierarchy in the rest of the webpage. Updated the CSS accordingly.
     12. Removed the class "content" since we can use the new "main" element to select the element semantically (ie "main{}" in the CSS)
+    13. Changed the "hero" class to an ID tag, since there is only one instance of "hero"
     
 
 
@@ -38,7 +39,3 @@
     1. Created a caption for the primary image on our site (see 1.4)
     2. Created alt attributes for all HTML img elements
 
-
-
-Outstanding Improvements:
-- CSS commenting
