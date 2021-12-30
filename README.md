@@ -15,7 +15,7 @@
     10. Created a "footer" element out of what was previously a div container with class "footer"
     11. Changed the h2 in the footer to an h4 to be consistent with the heading hierarchy in the rest of the webpage. Updated the CSS accordingly.
     12. Removed the class "content" since we can use the new "main" element to select the element semantically (ie "main{}" in the CSS)
-    13. Changed the "hero" class to an ID tag, since there is only one instance of "hero"
+    13. Changed the "hero" class to an ID tag, since there is only one instance of "hero". Update the CSS selectors accordingly.
     
 
 
