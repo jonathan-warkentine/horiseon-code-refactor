@@ -34,6 +34,7 @@ This site is live @ https://jonathan-warkentine.github.io/horiseon-code-refactor
     9. Consolidated ".lead-generation img", ".benefit-brand img", and ".cost-management img" classes with a single, shared class, ".benefit-section img"
     10. Because it was redundant, the "header" class was removed from the "header" element, and the CSS updated accordingly to preserve styling.
     11. Simplified the "header h1 .seo" selector to "#seo", updated the seo class to be an ID tag
+    12. Removed all instances of float and replaced with flex, accompanied by additional flex attributes as necessary to preserve the original styling.
 
 
 
