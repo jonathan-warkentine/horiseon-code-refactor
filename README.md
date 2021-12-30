@@ -1,5 +1,8 @@
 # horiseon-code-refactor
 
+This site is live @ https://jonathan-warkentine.github.io/horiseon-code-refactor/
+
+
 ##Description of Changes
 
 1. HTML Restrucutring
