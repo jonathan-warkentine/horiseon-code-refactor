@@ -17,6 +17,12 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    
+    /* replacing the float mechanism with flex */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
 }
 
 /* styling homepage title */
@@ -34,7 +40,6 @@ header h1 {
 nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -76,23 +81,45 @@ p {
     display: none;
 }
 
-/* arranges the designated images in the "main" section to the left of adjoining text */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/* arranges the designated images in the "main" section to the left of adjoining text */
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 /* styling for the main content container */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+
+/* stylings for the sections within the main container */
+.main-section {
+    /* replacing the float class with the following attributes */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    /* using the gap attribute to replace the 25px margins in the float stylings */
+    gap: 25px;
+}
+
+/* removing the float stylings left us with some margin and wrapping issues resolved here */
+.main-section div{
+    flex-flow: column nowrap;
+}
+
+/* stylings for the images within the main container */
+.main-section img {
+    max-height: 200px;
+}
+
+/* stylings for the subheadings within the main container */
+.main-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /* styling for the sidebar */
@@ -125,27 +152,6 @@ aside {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* stylings for the sections within the main container */
-.main-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* stylings for the images within the main container */
-.main-section img {
-    max-height: 200px;
-}
-
-/* stylings for the subheadings within the main container */
-.main-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* stylings for the webpage footer */
