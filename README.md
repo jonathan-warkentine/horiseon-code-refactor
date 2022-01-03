@@ -2,6 +2,8 @@
 
 This site is live @ https://jonathan-warkentine.github.io/horiseon-code-refactor/
 
+    
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/Screen-shot.png)
 
 ##Description of Changes
 
